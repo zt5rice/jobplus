@@ -19,6 +19,7 @@ public class Item {
     private String url;
     private String description;
     private Set<String> keywords;
+    private boolean favorite;
 
     @JsonProperty("id")
     public String getId() {
@@ -52,6 +53,14 @@ public class Item {
 
     public Set<String> getKeywords() {
         return keywords;
+    }
+
+    public boolean getFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        this.favorite = favorite;
     }
 
     public void setKeywords(Set<String> keywords) {
@@ -102,6 +111,7 @@ public class Item {
         private String url;
         private String description;
         private Set<String> keywords;
+        private boolean favorite;
 
         public Builder id(String id) {
             this.id = id;
@@ -138,6 +148,10 @@ public class Item {
             return this;
         }
 
+        public Builder favorite(Boolean favorite) {
+            this.favorite = favorite;
+            return this;
+        }
         public Item build() {
             Item item = new Item();
             item.id = id;
