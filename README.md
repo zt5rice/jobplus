@@ -2,9 +2,9 @@
 
 ### Overview
 
-[New member Registration](job_finder_demo1.gif)
+![New member Registration](job_finder_demo1.gif)
 
-[Job recommendation](job_finder_demo2.gif)
+![Job recommendation](job_find_demo2.gif)
 
 ### My word at a glance
 
