@@ -1,8 +1,9 @@
-## Job Finder
+## Job Finder Plus
 
 ### Overview
-Job plus is a personalized job recommendation engine. It allows user to find posted nearby job from github jobs. 
-![New member Registration](job_finder_demo1.gif)
+Job plus is a personalized job recommendation engine. It allows users to find posted nearby job from github jobs. User registration is designed to achieve personalized job recomemdation.
+![New member Registration](job_finder_demo1.gif) <br />
+
 Item based job recommendation can be made through user's favorite job label. 
 ![Job recommendation](job_find_demo2.gif)
 
